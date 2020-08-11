@@ -1,65 +1,115 @@
-/*section{
-	background-color: red;
-	float: left;
-	margin: 5px 10px 1px 2px ;
-    width: 30%;
-    box-sizing: border-box;
+
+  .sub1 {
+  	color: white;
+    float: right;
+    width: 100px;
+    padding: 5px;
+    margin: 0px;
     border: 1px solid black;
-}*/
-h2{
-	float:right;
-	border: 1px solid black;
-	margin-top: 0px;
-	/*margin-bottom: 1px;*/
-}
-p {
- 
-  width: 90%;
-  height: 150px;
- /* margin-top:1px;*/
-  margin-right: auto;
-  margin-left: auto;
-  /*position: relative;*/
-  padding-top: 20px;
-}
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    background-color: maroon;
+    
+  }
+  .sub2 {
+    float: right;
+    color: white;
+    width: 100px;
+    padding: 5px;
+    margin: 0px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    background-color: maroon;
+    
+  }
+  .sub3 {
+    color: white;
+    float: right;
+    width: 100px;
+    padding: 5px;
+    margin: 0px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 120%;
+    font-weight: bold;
+    background-color: maroon;
+    
+  }
+h1 {
+    margin: 100px;
+    text-align: center;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 175%;
+  }
+  section {
+    position: relative;
+    padding: 15px;
+    width: 100%;
+  }
+  p {
+    position: relative;
+    clear: right;
+  }
+  div {
+    position: relative;
+    background-color: gray;
+    border: 1px solid black;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+  }
 *{
 	box-sizing: border-box;
 }
-.row{
-	width:100%;
-}
+.row {
+    width: 90%;
+  }
+  
+
+.content {
+    padding: 5px;
+    border: none;
+    background-color: gray;
+    font-family: Helvetica;
+    color: black;
+    margin: auto;
+    height: auto;
+    overflow: auto;
+  }
+
+  
 @media(min-width: 992px) { 
-	section{
-	background-color: red;
-	float: left;
-	margin: 5px 10px 1px 10px ;
-	border: 1px solid black;
-    width: 30%;
-}
+	.column-lg-4 {
+      float: left;
+      width: 33.33%;
+    }
 }
 
 @media(min-width: 768px)  and (max-width: 991px) { 
-	section{
-	background-color: red;
-	float: left;
-	margin: 5px 10px 1px 2px ;
-	border: 1px solid black;
-	width: 30%;
-    
-}
-.col-lg-3{
-	width:100%;
-}
+.colmn-md-6 {
+      float: left;
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .colmn-md-12 {
+      float: left;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
 
 
 }
 
 @media(max-width: 767px) { 
-	section{
-	background-color: red;
-	float: left;
-	margin: 5px 10px 1px 2px ;
-	border: 1px solid black;
-    width: 100%;
-}
+	 .colmn-sm-12 {
+      float: left;
+      width: 100%;
+    }
 }

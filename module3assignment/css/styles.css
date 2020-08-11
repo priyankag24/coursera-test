@@ -1,0 +1,38 @@
+h1{
+	margin-top: 0px;
+	margin-left: 0px;
+	line-height: 0.5;
+	color: black;
+	font-style: all;
+
+}
+.container{
+	margin-left: 0px;
+}
+.dropdown { 
+	position:static !important;
+	align-content: center;
+	}
+.navbar-nav{
+	text-align:center;
+	}
+
+.icon{
+	border: 1px solid black;
+
+}
+.row{
+	background-color: grey;
+	height: 1000px;
+	color: white;
+	margin:1px;
+}
+
+.top{
+	margin-top: 10px;
+	text-align: center;
+}
+.navbar-default{
+	border-color: black;
+	background-color: grey;
+}
